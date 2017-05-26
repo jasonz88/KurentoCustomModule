@@ -18,7 +18,8 @@ namespace module
 namespace gsthello
 {
 
-gsthelloImpl::gsthelloImpl (const boost::property_tree::ptree &config, std::shared_ptr<MediaPipeline> mediaPipeline)  : FilterImpl (/* FIXME: Add parent class constructor params here */) 
+gsthelloImpl::gsthelloImpl (const boost::property_tree::ptree &config, std::shared_ptr<MediaPipeline> mediaPipeline)
+: FilterImpl (config, std::dynamic_pointer_cast<MediaObjectImpl> (mediaPipeline))
 {
   // FIXME: Implement this
 }
