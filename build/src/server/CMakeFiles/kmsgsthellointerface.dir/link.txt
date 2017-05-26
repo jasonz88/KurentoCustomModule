@@ -1,0 +1,2 @@
+/usr/bin/ar cq libkmsgsthellointerface.a  CMakeFiles/kmsgsthellointerface.dir/interface/generated-cpp/gsthelloInternal.cpp.o CMakeFiles/kmsgsthellointerface.dir/interface/generated-cpp/gsthello.cpp.o
+/usr/bin/ranlib libkmsgsthellointerface.a

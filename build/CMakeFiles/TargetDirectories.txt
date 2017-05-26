@@ -1,0 +1,6 @@
+/home/dyz/kurento-tutorial-js/gsthello/build/src/server/CMakeFiles/js_install.dir
+/home/dyz/kurento-tutorial-js/gsthello/build/src/server/CMakeFiles/kmsgsthelloimpl.dir
+/home/dyz/kurento-tutorial-js/gsthello/build/src/server/CMakeFiles/kmsgsthellointerface.dir
+/home/dyz/kurento-tutorial-js/gsthello/build/src/server/CMakeFiles/js.dir
+/home/dyz/kurento-tutorial-js/gsthello/build/src/gst-plugins/CMakeFiles/gsthello.dir
+/home/dyz/kurento-tutorial-js/gsthello/build/src/server/CMakeFiles/kmsgsthellomodule.dir

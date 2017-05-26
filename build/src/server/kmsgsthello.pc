@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/kurento/modules/gsthello
+
+Name: kmsgsthello
+Description: Kurento gsthello Module
+Version: 0.0.1-dev
+URL:
+Requires: kmscore  kmselements  kmsfilters  
+Requires.private:
+Libs: -L${libdir} -lkmsgsthelloimpl
+Libs.private:
+CFlags: -I${includedir}
